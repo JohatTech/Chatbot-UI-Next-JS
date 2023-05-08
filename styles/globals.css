@@ -2,6 +2,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
